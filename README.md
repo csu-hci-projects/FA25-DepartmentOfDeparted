@@ -2,6 +2,9 @@
 
 ## Links
 - Engine overview video: <I'm going to record this
+- Take a look at the flow chart of the game structure:
+  ![Game structure flow chart](SRC/misc_content/engine.drawio.svg)
+  [flow chart](https://app.diagrams.net/#Hcabbabbage%2FVIBBLE_2D_GAME_ENGINE%2Fplayer_fix%2Fengine.drawio.xml#%7B%22pageId%22%3A%224_JYmeCipBGX9XNcjFr7%22%7D)
 
 
 ## Installation
