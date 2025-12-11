@@ -45,48 +45,48 @@
           "movement": [
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": -20
           },
           "number_of_frames": 10,
           "on_end": "default",
@@ -267,32 +267,32 @@
           "movement": [
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": 12
           },
           "number_of_frames": 6,
           "on_end": "default",
@@ -309,7 +309,7 @@
           "child_timelines": [],
           "crop_frames": false,
           "derived_modifiers": {
-            "flipMovementX": false,
+            "flipMovementX": true,
             "flipMovementY": false,
             "flipX": true,
             "flipY": false,
@@ -358,56 +358,56 @@
           "loop": true,
           "movement": [
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": -24,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -468,56 +468,56 @@
           "loop": true,
           "movement": [
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": 24,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -536,6 +536,7 @@
       "asset_directory": "SRC/assets/Bartender",
       "asset_name": "Bartender",
       "asset_type": "object",
+      "custom_controller_key": "Bartender_controller",
       "can_invert": false,
       "has_shading": false,
       "lighting_info": [],
@@ -870,8 +871,10 @@
       "tillable": false
     },
     "Carrie": {
+      "animation_children": [],
       "animations": {
         "back": {
+          "child_timelines": [],
           "crop_frames": false,
           "flipped_source": false,
           "frames": [
@@ -912,48 +915,48 @@
           "movement": [
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": -18
           },
           "number_of_frames": 10,
           "on_end": "default",
@@ -967,6 +970,7 @@
           "speed_multiplier": 1.0
         },
         "default": {
+          "child_timelines": [],
           "crop_frames": false,
           "flipped_source": false,
           "frames": [
@@ -999,6 +1003,7 @@
           "speed_multiplier": 1.0
         },
         "forward": {
+          "child_timelines": [],
           "crop_frames": false,
           "flipped_source": false,
           "frames": [
@@ -1027,32 +1032,32 @@
           "movement": [
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": 10
           },
           "number_of_frames": 6,
           "on_end": "default",
@@ -1066,6 +1071,7 @@
           "speed_multiplier": 1.0
         },
         "left": {
+          "child_timelines": [],
           "crop_frames": false,
           "derived_modifiers": {
             "flipMovementX": false,
@@ -1117,56 +1123,56 @@
           "loop": true,
           "movement": [
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": -22,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -1181,6 +1187,7 @@
           "speed_multiplier": 1.0
         },
         "right": {
+          "child_timelines": [],
           "crop_frames": false,
           "flipped_source": false,
           "frames": [
@@ -1226,56 +1233,56 @@
           "loop": true,
           "movement": [
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ],
             [
-              0,
+              2,
               0
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": 22,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -1294,6 +1301,7 @@
       "asset_directory": "SRC/assets/Carrie",
       "asset_name": "Carrie",
       "asset_type": "object",
+      "custom_controller_key": "Carrie_controller",
       "can_invert": false,
       "has_shading": false,
       "lighting_info": [],
@@ -2530,6 +2538,7 @@
       "asset_directory": "SRC/assets/Frog",
       "asset_name": "Frog",
       "asset_type": "object",
+      "custom_controller_key": "Frog_controller",
       "lighting_info": [],
       "start": "Default"
     },
@@ -2578,48 +2587,48 @@
           "movement": [
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ],
             [
               0,
-              0
+              -2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": -20
           },
           "number_of_frames": 10,
           "on_end": "default",
@@ -2717,32 +2726,32 @@
           "movement": [
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ],
             [
               0,
-              0
+              2
             ]
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 0
+            "dy": 12
           },
           "number_of_frames": 6,
           "on_end": "default",
@@ -2759,7 +2768,7 @@
           "child_timelines": [],
           "crop_frames": false,
           "derived_modifiers": {
-            "flipMovementX": false,
+            "flipMovementX": true,
             "flipMovementY": false,
             "flipX": true,
             "flipY": false,
@@ -2808,56 +2817,56 @@
           "loop": true,
           "movement": [
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ],
             [
-              0,
+              -2,
               0
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": -24,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -2872,6 +2881,68 @@
           "speed_multiplier": 1.0
         },
         "right": {
+          "attack_geometry": [
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            },
+            {
+              "explosion": [],
+              "melee": [],
+              "projectile": []
+            }
+          ],
           "child_timelines": [],
           "crop_frames": false,
           "flipped_source": false,
@@ -2913,61 +2984,135 @@
               "needs_rebuild": false
             }
           ],
+          "hit_geometry": [
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            },
+            {
+              "explosion": null,
+              "melee": null,
+              "projectile": null
+            }
+          ],
           "inherit_source_movement": false,
           "locked": false,
           "loop": true,
           "movement": [
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ],
             [
+              2,
               0,
-              0
+              false
             ]
           ],
           "movement_total": {
-            "dx": 0,
+            "dx": 24,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -2986,6 +3131,7 @@
       "asset_directory": "SRC/assets/Gary",
       "asset_name": "Gary",
       "asset_type": "object",
+      "custom_controller_key": "Gary_controller",
       "can_invert": false,
       "has_shading": false,
       "lighting_info": [],
@@ -3207,7 +3353,7 @@
       "animations": {
         "default": {
           "child_timelines": [],
-          "crop_frames": false,
+          "crop_frames": true,
           "flipped_source": false,
           "frames": [
             {
@@ -3269,7 +3415,7 @@
       "tags": [],
       "tillable": false,
       "update_radius": 0,
-      "z_threshold": -288
+      "z_threshold": -280
     },
     "Town_Hall": {
       "animation_children": [],
@@ -6146,6 +6292,61 @@
       "lighting_info": [],
       "start": "default"
     },
+    "car": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/car",
+      "asset_name": "car",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
     "church": {
       "animation_children": [],
       "animations": {
@@ -6212,6 +6413,74 @@
       "tillable": false,
       "update_radius": 0,
       "z_threshold": 4
+    },
+    "flower_red": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/flower_red",
+      "asset_name": "flower_red",
+      "asset_type": "object",
+      "async_children": [],
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "shading_opacity_multiplier": 1.0,
+      "shading_parallax_amount": 0.0,
+      "shading_screen_brightness_multiplier": 1.0,
+      "shadow_mask_settings": {
+        "alpha_multiplier": 1.0,
+        "blur_scale": 1.0,
+        "expansion_ratio": 0.800000011920929,
+        "falloff_exponent": 1.0499999523162842,
+        "falloff_start": 0.0
+      },
+      "size_settings": {
+        "scale_percentage": 5.0
+      },
+      "spawn_groups": [],
+      "start": "default",
+      "tags": [],
+      "tillable": false,
+      "update_radius": 0
     },
     "grass_3": {
       "animations": {
@@ -6379,6 +6648,116 @@
       "tillable": true,
       "update_radius": 0
     },
+    "grave_1": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/grave_1",
+      "asset_name": "grave_1",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
+    "grave_2": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/grave_2",
+      "asset_name": "grave_2",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
     "lantern": {
       "animation_children": [],
       "animations": {
@@ -6511,6 +6890,635 @@
       "start": "default",
       "tags": [],
       "tillable": false,
+      "update_radius": 0
+    },
+    "shop_1": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/shop_1",
+      "asset_name": "shop_1",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
+    "shop_2": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/shop_2",
+      "asset_name": "shop_2",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
+    "smith": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/smith",
+      "asset_name": "smith",
+      "asset_type": "object",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
+      "update_radius": 0
+    },
+    "spider": {
+      "animation_children": [],
+      "animations": {
+        "default": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 1,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "default"
+          },
+          "speed_multiplier": 1.0
+        },
+        "down_left": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "derived_modifiers": {
+            "flipMovementX": false,
+            "flipMovementY": false,
+            "flipX": false,
+            "flipY": false,
+            "reverse": false
+          },
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            }
+          ],
+          "inherit_source_movement": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "animation",
+            "name": "left",
+            "path": ""
+          },
+          "speed_multiplier": 1.0
+        },
+        "down_right": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "derived_modifiers": {
+            "flipMovementX": false,
+            "flipMovementY": false,
+            "flipX": false,
+            "flipY": false,
+            "reverse": false
+          },
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            }
+          ],
+          "inherit_source_movement": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "animation",
+            "name": "right",
+            "path": ""
+          },
+          "speed_multiplier": 1.0
+        },
+        "left": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": false
+            },
+            {
+              "needs_rebuild": false
+            },
+            {
+              "needs_rebuild": false
+            },
+            {
+              "needs_rebuild": false
+            },
+            {
+              "needs_rebuild": false
+            },
+            {
+              "needs_rebuild": false
+            }
+          ],
+          "inherit_source_movement": false,
+          "locked": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "folder",
+            "name": "",
+            "path": "left"
+          },
+          "speed_multiplier": 1.0
+        },
+        "right": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "derived_modifiers": {
+            "flipMovementX": true,
+            "flipMovementY": false,
+            "flipX": true,
+            "flipY": false,
+            "reverse": false
+          },
+          "flipped_source": true,
+          "frames": [
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            }
+          ],
+          "inherit_source_movement": true,
+          "loop": true,
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "animation",
+            "name": "left",
+            "path": ""
+          },
+          "speed_multiplier": 1.0
+        },
+        "up_left": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "derived_modifiers": {
+            "flipMovementX": false,
+            "flipMovementY": false,
+            "flipX": false,
+            "flipY": false,
+            "reverse": false
+          },
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            }
+          ],
+          "inherit_source_movement": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "animation",
+            "name": "left",
+            "path": ""
+          },
+          "speed_multiplier": 1.0
+        },
+        "up_right": {
+          "child_timelines": [],
+          "crop_frames": false,
+          "derived_modifiers": {
+            "flipMovementX": false,
+            "flipMovementY": false,
+            "flipX": false,
+            "flipY": false,
+            "reverse": false
+          },
+          "flipped_source": false,
+          "frames": [
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            },
+            {
+              "needs_rebuild": true
+            }
+          ],
+          "inherit_source_movement": false,
+          "loop": true,
+          "movement": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "movement_total": {
+            "dx": 0,
+            "dy": 0
+          },
+          "number_of_frames": 6,
+          "on_end": "default",
+          "reverse_source": false,
+          "rnd_start": false,
+          "source": {
+            "kind": "animation",
+            "name": "right",
+            "path": ""
+          },
+          "speed_multiplier": 1.0
+        }
+      },
+      "anti_tags": [],
+      "asset_directory": "SRC/assets/spider",
+      "asset_name": "spider",
+      "asset_type": "object",
+      "custom_controller_key": "spider_controller",
+      "can_invert": false,
+      "has_shading": false,
+      "lighting_info": [],
+      "min_distance_all": 0,
+      "min_same_type_distance": 0,
+      "neighbor_search_distance": 500,
+      "render_radius": 0,
+      "size_settings": {
+        "scale_percentage": 100.0
+      },
+      "start": "default",
+      "tags": [],
       "update_radius": 0
     },
     "tex": {
@@ -6817,6 +7825,10 @@
               {
                 "chance": 164.65,
                 "name": "tex"
+              },
+              {
+                "chance": 7.649999999999999,
+                "name": "flower_red"
               }
             ],
             "display_name": "batch_map_assets",
@@ -7077,7 +8089,7 @@
           },
           {
             "brightness": 1.0,
-            "offset": 658.9600219726562,
+            "offset": 658.9600219726563,
             "opacity": 7.659999847412109,
             "scale": 6.590000152587891
           }
@@ -7108,8 +8120,8 @@
           "curvyness": 2,
           "display_color": [
             242,
-            45,
             36,
+            242,
             255
           ],
           "edge_smoothness": 19,
@@ -7127,9 +8139,9 @@
         "fountain": {
           "curvyness": 2,
           "display_color": [
-            242,
-            242,
-            85,
+            32,
+            31,
+            204,
             255
           ],
           "edge_smoothness": 43,
@@ -7180,9 +8192,9 @@
         "rnd": {
           "curvyness": 2,
           "display_color": [
-            31,
-            96,
-            204,
+            36,
+            242,
+            125,
             255
           ],
           "edge_smoothness": 2,
@@ -7231,8 +8243,8 @@
           "curvyness": 2,
           "display_color": [
             242,
-            85,
-            153,
+            36,
+            109,
             255
           ],
           "edge_smoothness": 101,
@@ -7348,8 +8360,8 @@
                 }
               ],
               "display_name": "church",
-              "dx": 1500,
-              "dy": -452,
+              "dx": 1148,
+              "dy": -196,
               "enforce_spacing": false,
               "explicit_flip": false,
               "force_flipped": false,
@@ -7360,7 +8372,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 3,
-              "resolution": 6,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-0feef2a44e33"
@@ -7406,8 +8418,8 @@
                 }
               ],
               "display_name": "Casino",
-              "dx": 1132,
-              "dy": -1716,
+              "dx": 1148,
+              "dy": -1732,
               "enforce_spacing": false,
               "explicit_flip": false,
               "force_flipped": false,
@@ -7418,7 +8430,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 5,
-              "resolution": 6,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-70c883db5005"
@@ -7435,8 +8447,8 @@
                 }
               ],
               "display_name": "lantern",
-              "dx": -1750,
-              "dy": -1744,
+              "dx": -1988,
+              "dy": -1860,
               "enforce_spacing": false,
               "explicit_flip": false,
               "force_flipped": false,
@@ -7447,7 +8459,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 6,
-              "resolution": 7,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-5f19831b92c3"
@@ -7505,7 +8517,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 8,
-              "resolution": 6,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-0b47da4b1396"
@@ -7522,7 +8534,7 @@
                 }
               ],
               "display_name": "Fountain",
-              "dx": -196,
+              "dx": -164,
               "dy": -1700,
               "enforce_spacing": false,
               "explicit_flip": false,
@@ -7534,7 +8546,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 9,
-              "resolution": 4,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-ceabf6bbb077"
@@ -7580,8 +8592,8 @@
                 }
               ],
               "display_name": "Vibble",
-              "dx": -1038,
-              "dy": -654,
+              "dx": -196,
+              "dy": -68,
               "enforce_spacing": false,
               "explicit_flip": false,
               "force_flipped": false,
@@ -7592,7 +8604,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 11,
-              "resolution": 7,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-e8e9caae35da"
@@ -7609,8 +8621,8 @@
                 }
               ],
               "display_name": "Bench",
-              "dx": -868,
-              "dy": -1972,
+              "dx": -804,
+              "dy": -1988,
               "enforce_spacing": false,
               "explicit_flip": false,
               "force_flipped": false,
@@ -7621,7 +8633,7 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 12,
-              "resolution": 3,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-511472b321d6"
@@ -7783,7 +8795,7 @@
                 }
               ],
               "display_name": "Pub",
-              "dx": -1476,
+              "dx": -1540,
               "dy": -1732,
               "enforce_spacing": false,
               "explicit_flip": false,
@@ -7795,10 +8807,241 @@
               "origional_width": 6904,
               "position": "Exact",
               "priority": 18,
-              "resolution": 6,
+              "resolution": 5,
               "resolve_geometry_to_room_size": true,
               "resolve_quantity_to_room_size": false,
               "spawn_id": "spn-eec4c2119964"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "smith"
+                }
+              ],
+              "display_name": "smith",
+              "dx": -1892,
+              "dy": 220,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 19,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-07d396d4a31b"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "shop_1"
+                }
+              ],
+              "display_name": "shop_1",
+              "dx": -1284,
+              "dy": -612,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 20,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-a93ee81a6431"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "shop_2"
+                }
+              ],
+              "display_name": "shop_2",
+              "dx": 988,
+              "dy": -612,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 21,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-304fa34d6dd5"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "latern_left"
+                }
+              ],
+              "display_name": "latern_left",
+              "dx": 220,
+              "dy": -644,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 22,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-10bb93ad4d5c"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "lantern"
+                }
+              ],
+              "display_name": "lantern",
+              "dx": -612,
+              "dy": -644,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 23,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-e8b5947364b1"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "lantern"
+                }
+              ],
+              "display_name": "lantern",
+              "dx": -612,
+              "dy": 316,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 24,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-81d8b0f7cdb6"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "latern_left"
+                }
+              ],
+              "display_name": "latern_left",
+              "dx": 220,
+              "dy": 316,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "priority": 25,
+              "resolution": 5,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-1e1d5cb712a3"
+            },
+            {
+              "candidates": [
+                {
+                  "chance": 0,
+                  "name": "null"
+                },
+                {
+                  "chance": 100,
+                  "name": "spider"
+                }
+              ],
+              "display_name": "spider",
+              "dx": -452,
+              "dy": -164,
+              "enforce_spacing": false,
+              "explicit_flip": false,
+              "force_flipped": false,
+              "locked": false,
+              "max_number": 1,
+              "min_number": 1,
+              "origional_height": 6904,
+              "origional_width": 6904,
+              "position": "Exact",
+              "resolution": 7,
+              "resolve_geometry_to_room_size": true,
+              "resolve_quantity_to_room_size": false,
+              "spawn_id": "spn-85576809b239"
             }
           ]
         }

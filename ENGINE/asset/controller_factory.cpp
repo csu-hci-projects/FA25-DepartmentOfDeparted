@@ -5,6 +5,10 @@
 #include "animation_update/custom_controllers/Vibble_controller.hpp"
 #include "animation_update/custom_controllers/Frog_controller.hpp"
 #include "animation_update/custom_controllers/Bomb_controller.hpp"
+#include "animation_update/custom_controllers/Bartender_controller.hpp"
+#include "animation_update/custom_controllers/Carrie_controller.hpp"
+#include "animation_update/custom_controllers/Gary_controller.hpp"
+#include "animation_update/custom_controllers/spider_controller.hpp"
 
 #include "animation_update/custom_controllers/default_controller.hpp"
 
@@ -25,6 +29,14 @@ ControllerFactory::create_by_key(const std::string& key, Asset* self) const {
                 if (key == "Frog_controller")
 
                         return std::make_unique<FrogController>(assets_, self);
+                if (key == "Carrie_controller")
+                        return std::make_unique<CarrieController>(assets_, self);
+                if (key == "Gary_controller")
+                        return std::make_unique<GaryController>(assets_, self);
+                if (key == "Bartender_controller")
+                        return std::make_unique<BartenderController>(assets_, self);
+                if (key == "spider_controller")
+                        return std::make_unique<spiderController>(assets_, self);
 
                 if (key == "Bomb_controller" || self->info->name == "bomb")
                         return std::make_unique<BombController>(assets_, self);
