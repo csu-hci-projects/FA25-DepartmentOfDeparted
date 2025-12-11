@@ -86,7 +86,7 @@
           ],
           "movement_total": {
             "dx": 0,
-            "dy": -20
+            "dy": -18
           },
           "number_of_frames": 10,
           "on_end": "default",
@@ -292,7 +292,7 @@
           ],
           "movement_total": {
             "dx": 0,
-            "dy": 12
+            "dy": 10
           },
           "number_of_frames": 6,
           "on_end": "default",
@@ -407,7 +407,7 @@
             ]
           ],
           "movement_total": {
-            "dx": -24,
+            "dx": -22,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -517,7 +517,7 @@
             ]
           ],
           "movement_total": {
-            "dx": 24,
+            "dx": 22,
             "dy": 0
           },
           "number_of_frames": 12,
@@ -536,8 +536,8 @@
       "asset_directory": "SRC/assets/Bartender",
       "asset_name": "Bartender",
       "asset_type": "object",
-      "custom_controller_key": "Bartender_controller",
       "can_invert": false,
+      "custom_controller_key": "Bartender_controller",
       "has_shading": false,
       "lighting_info": [],
       "min_distance_all": 0,
@@ -1301,8 +1301,8 @@
       "asset_directory": "SRC/assets/Carrie",
       "asset_name": "Carrie",
       "asset_type": "object",
-      "custom_controller_key": "Carrie_controller",
       "can_invert": false,
+      "custom_controller_key": "Carrie_controller",
       "has_shading": false,
       "lighting_info": [],
       "min_distance_all": 0,
@@ -3131,8 +3131,8 @@
       "asset_directory": "SRC/assets/Gary",
       "asset_name": "Gary",
       "asset_type": "object",
-      "custom_controller_key": "Gary_controller",
       "can_invert": false,
+      "custom_controller_key": "Gary_controller",
       "has_shading": false,
       "lighting_info": [],
       "min_distance_all": 0,
@@ -7506,19 +7506,32 @@
       "asset_directory": "SRC/assets/spider",
       "asset_name": "spider",
       "asset_type": "object",
-      "custom_controller_key": "spider_controller",
+      "async_children": [],
       "can_invert": false,
+      "custom_controller_key": "spider_controller",
       "has_shading": false,
       "lighting_info": [],
       "min_distance_all": 0,
       "min_same_type_distance": 0,
       "neighbor_search_distance": 500,
       "render_radius": 0,
-      "size_settings": {
-        "scale_percentage": 100.0
+      "shading_opacity_multiplier": 1.0,
+      "shading_parallax_amount": 0.0,
+      "shading_screen_brightness_multiplier": 1.0,
+      "shadow_mask_settings": {
+        "alpha_multiplier": 1.0,
+        "blur_scale": 1.0,
+        "expansion_ratio": 0.800000011920929,
+        "falloff_exponent": 1.0499999523162842,
+        "falloff_start": 0.0
       },
+      "size_settings": {
+        "scale_percentage": 22.0
+      },
+      "spawn_groups": [],
       "start": "default",
       "tags": [],
+      "tillable": false,
       "update_radius": 0
     },
     "tex": {
@@ -8089,7 +8102,7 @@
           },
           {
             "brightness": 1.0,
-            "offset": 658.9600219726563,
+            "offset": 658.9600219726562,
             "opacity": 7.659999847412109,
             "scale": 6.590000152587891
           }

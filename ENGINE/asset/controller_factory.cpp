@@ -26,16 +26,16 @@ ControllerFactory::create_by_key(const std::string& key, Asset* self) const {
                         return std::make_unique<DaveyController>(assets_, self);
                 if (self->info->type == "Player" || self->info->type == "player")
                         return std::make_unique<VibbleController>(self);
-                if (key == "Frog_controller")
+                if (key == "Frog_controller" || self->info->name == "frog")
 
                         return std::make_unique<FrogController>(assets_, self);
-                if (key == "Carrie_controller")
+                if (key == "Carrie_controller" || self->info->name == "Carrie")
                         return std::make_unique<CarrieController>(assets_, self);
-                if (key == "Gary_controller")
+                if (key == "Gary_controller" || self->info->name == "Gary")
                         return std::make_unique<GaryController>(assets_, self);
-                if (key == "Bartender_controller")
+                if (key == "Bartender_controller" || self->info->name == "Bartender")
                         return std::make_unique<BartenderController>(assets_, self);
-                if (key == "spider_controller")
+                if (key == "spider_controller" || self->info->name == "spider")
                         return std::make_unique<spiderController>(assets_, self);
 
                 if (key == "Bomb_controller" || self->info->name == "bomb")
