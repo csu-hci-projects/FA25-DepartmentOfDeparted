@@ -10,7 +10,7 @@
 ## Installation
 ### Quick start (Windows)
 1. Clone the repo.
-2. Run `run.bat` from the project root.
+2. Run `setup.bat` from the project root if you wish to build and compile compile.
 
 The script installs build tools (Git, MSVC build tools, CMake, Ninja, vcpkg), fetches dependencies, configures a RelWithDebInfo build, compiles, and launches the engine. Requires Windows 10/11, internet, and admin rights are recommended for tool installs.
 
@@ -31,8 +31,8 @@ The script installs build tools (Git, MSVC build tools, CMake, Ninja, vcpkg), fe
 - `vcpkg/`, `external/`: Dependency management and bundled libs.
 
 ## Running
-- Preferred: run `compile_and_run.bat` to configure, build, and start the engine.
-- To quickly rerun an already-built binary, run `run.bat`; it launches `release\engine.exe` produced by the build.
+- Preferred: run `run.bat` to configure, build, and start the engine.
+- To build fresh run `compile_and_run.bat`; it launches `release\engine.exe` produced by the build.
 - Repeat runs reuse the configured build; rerun `compile_and_run.bat` after pulling dependency changes.
 
 ## Dev Mode
