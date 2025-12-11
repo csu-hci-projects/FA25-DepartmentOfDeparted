@@ -1,21 +1,17 @@
-# VIBBLE - 2D Game Engine
+# VIBBLE - 2D Game Engine (Departed Affairs and Co.)
 
 ## Links
-- Engine overview: `engine_overview.html`
-- Manifest and content config: `manifest.json`
-- Auto setup and launch: `run.bat`
-- Dev mode settings: `dev_mode_settings.json`
-- License: `LICENSE`
+- Engine overview video: <I'm going to record this
+
 
 ## Installation
 ### Quick start (Windows)
 1. Clone the repo.
 2. Run `run.bat` from the project root.
+3. Restart computer if build fails to fully apply installed content
 
 The script installs build tools (Git, MSVC build tools, CMake, Ninja, vcpkg), fetches dependencies, configures a RelWithDebInfo build, compiles, and launches the engine. Requires Windows 10/11, internet, and admin rights are recommended for tool installs.
 
-### Manual setup (optional)
-Install Git, Visual Studio Build Tools (or VS 2022) with MSVC + Windows SDK, CMake 3.16+, and vcpkg. Then configure and build with CMake presets (for example `cmake --build --preset windows-vcpkg-release`).
 
 ## Overview
 - SDL2-based 2D engine; content lives in external JSON-driven files for maps, assets, lighting, and animations.
