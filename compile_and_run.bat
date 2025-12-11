@@ -26,12 +26,12 @@ set "REPO_ROOT=%CD%"
 
 if not defined VIBBLE_SAFE_LOADING (
     set "VIBBLE_SAFE_LOADING=1"
-    echo [run.bat] SAFE loading enabled (VIBBLE_SAFE_LOADING=%VIBBLE_SAFE_LOADING%)
+    echo [compile_and_run.bat] SAFE loading enabled (VIBBLE_SAFE_LOADING=%VIBBLE_SAFE_LOADING%)
 )
 
 if not exist "%REPO_ROOT%\CMakeLists.txt" (
     echo [ERROR] CMakeLists.txt not found at repo root: "%REPO_ROOT%\CMakeLists.txt"
-    echo        Make sure you are running run.bat from the project root.
+    echo        Make sure you are running compile_and_run.bat from the project root.
     goto :non_compile_fail
 )
 
@@ -47,7 +47,7 @@ if exist "%SETUP_JSON_FILE%" (
 )
 
 if "%NEED_SETUP%"=="1" (
-    echo [run.bat] Running setup.bat...
+    echo [compile_and_run.bat] Running setup.bat...
     call "%REPO_ROOT%\setup.bat"
     if errorlevel 1 goto :fail
 )
@@ -75,13 +75,13 @@ if not defined CMAKE_CMD (
 for %%P in ("%CMAKE_CMD%") do set "CMAKE_DIR=%%~dpP"
 if defined CMAKE_DIR set "PATH=%CMAKE_DIR%;%PATH%"
 
-echo [run.bat] Using CMake from: %CMAKE_CMD%
+echo [compile_and_run.bat] Using CMake from: %CMAKE_CMD%
 
-echo [run.bat] Configuring with preset: windows-vcpkg
+echo [compile_and_run.bat] Configuring with preset: windows-vcpkg
 "%CMAKE_CMD%" --preset windows-vcpkg
 if errorlevel 1 goto :non_compile_fail
 
-echo [run.bat] Building with preset: windows-vcpkg-release (%BUILD_CONFIG%)
+echo [compile_and_run.bat] Building with preset: windows-vcpkg-release (%BUILD_CONFIG%)
 "%CMAKE_CMD%" --build --preset windows-vcpkg-release --config %BUILD_CONFIG%
 if errorlevel 1 goto :fail
 
@@ -110,14 +110,14 @@ if not exist "%EXE%" (
     goto :non_compile_fail
 )
 
-echo [run.bat] Deleting all *.txt files (recursively) except log.txt and CMakeLists.txt...
+echo [compile_and_run.bat] Deleting all *.txt files (recursively) except log.txt and CMakeLists.txt...
 for /r "%REPO_ROOT%" %%F in (*.txt) do (
     if /I not "%%~nxF"=="log.txt" if /I not "%%~nxF"=="CMakeLists.txt" (
         del /q "%%~fF" >nul 2>&1
     )
 )
 
-echo [run.bat] Deleting all *.ilk files (recursively)...
+echo [compile_and_run.bat] Deleting all *.ilk files (recursively)...
 for /r "%REPO_ROOT%" %%F in (*.ilk) do (
     del /q "%%~fF" >nul 2>&1
 )
@@ -134,7 +134,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
   "$s.IconLocation='%ICONFILE%';" ^
   "$s.Save()"
 
-echo [run.bat] Launching: "%EXE%"
+echo [compile_and_run.bat] Launching: "%EXE%"
 "%EXE%" %EXTRA_ARGS%
 
 popd >nul
@@ -151,7 +151,7 @@ for %%E in (exe dll pdb) do (
 goto :eof
 
 :EnsureDevShell
-where cl >nul 2>&1 && (echo [run.bat] MSVC already on PATH. & exit /b 0)
+where cl >nul 2>&1 && (echo [compile_and_run.bat] MSVC already on PATH. & exit /b 0)
 
 set "VSROOT="
 set "VSWHERE=%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe"
@@ -163,7 +163,7 @@ if exist "%VSWHERE%" (
 if not defined VSROOT if exist "C:\VS2022\BuildTools" set "VSROOT=C:\VS2022\BuildTools"
 
 if defined VSROOT (
-    echo [run.bat] Loading dev environment from "%VSROOT%"...
+    echo [compile_and_run.bat] Loading dev environment from "%VSROOT%"...
     if exist "%VSROOT%\Common7\Tools\VsDevCmd.bat" (
         call "%VSROOT%\Common7\Tools\VsDevCmd.bat" -host_arch=x64 -arch=x64
     ) else if exist "%VSROOT%\VC\Auxiliary\Build\vcvars64.bat" (
@@ -171,7 +171,7 @@ if defined VSROOT (
     )
 )
 
-where cl >nul 2>&1 && (echo [run.bat] MSVC toolchain loaded. & exit /b 0)
+where cl >nul 2>&1 && (echo [compile_and_run.bat] MSVC toolchain loaded. & exit /b 0)
 echo [ERROR] Could not load MSVC dev environment.
 exit /b 1
 
@@ -199,12 +199,13 @@ if defined CMAKE_CMD (
 exit /b 0
 
 :non_compile_fail
-echo [run.bat] Non compilation error detected. Running setup.bat...
+echo [compile_and_run.bat] Non compilation error detected. Running setup.bat...
 call "%REPO_ROOT%\setup.bat"
 goto :fail
 
 :fail
-echo [run.bat] Build failed.
+echo [compile_and_run.bat] Build failed.
 popd >nul
 if not defined VIBBLE_SUPPRESS_PAUSE pause
 exit /b 1
+

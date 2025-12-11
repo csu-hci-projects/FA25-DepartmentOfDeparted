@@ -14,7 +14,6 @@ key.txt
 
 # Visual Studio build output
 Debug/
-Release/
 x64/
 *.vcxproj*
 *.sln
@@ -28,7 +27,6 @@ x64/
 Thumbs.db
 desktop.ini
 __pycache__/
-*.exe
 *.dll
 *.lib
 *.out

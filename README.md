@@ -1,7 +1,7 @@
 # VIBBLE - 2D Game Engine (Departed Affairs and Co.)
 
 ## Links
-- Engine overview video: <I'm going to record this
+- Engine and Dev Mode design overview video: <I'm going to record this>
 - Take a look at the flow chart of the game structure:
   ![Game structure flow chart](SRC/misc_content/engine.drawio.svg)
   [flow chart](https://app.diagrams.net/#Hcabbabbage%2FVIBBLE_2D_GAME_ENGINE%2Fplayer_fix%2Fengine.drawio.xml#%7B%22pageId%22%3A%224_JYmeCipBGX9XNcjFr7%22%7D)
@@ -11,7 +11,6 @@
 ### Quick start (Windows)
 1. Clone the repo.
 2. Run `run.bat` from the project root.
-3. Restart computer if build fails to fully apply installed content
 
 The script installs build tools (Git, MSVC build tools, CMake, Ninja, vcpkg), fetches dependencies, configures a RelWithDebInfo build, compiles, and launches the engine. Requires Windows 10/11, internet, and admin rights are recommended for tool installs.
 
@@ -32,8 +31,9 @@ The script installs build tools (Git, MSVC build tools, CMake, Ninja, vcpkg), fe
 - `vcpkg/`, `external/`: Dependency management and bundled libs.
 
 ## Running
-- Preferred: run `run.bat` to configure, build, and start the engine.
-- Repeat runs reuse the configured build; rerun `run.bat` after pulling dependency changes.
+- Preferred: run `compile_and_run.bat` to configure, build, and start the engine.
+- To quickly rerun an already-built binary, run `run.bat`; it launches `release\engine.exe` produced by the build.
+- Repeat runs reuse the configured build; rerun `compile_and_run.bat` after pulling dependency changes.
 
 ## Dev Mode
 - Toggle with `Ctrl+D` or through the pause menu (`Esc`), or it auto-enables when a map lacks a player.
