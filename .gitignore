@@ -5,7 +5,6 @@ CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-cache/
 vcpkg/
 vcpkg_installed/
 key.txt
