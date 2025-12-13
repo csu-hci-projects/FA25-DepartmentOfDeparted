@@ -1,7 +1,9 @@
 # VIBBLE - 2D Game Engine (Departed Affairs and Co.)
 
 ## Links
-- Engine and Dev Mode design overview video: <I'm going to record this>
+- Engine and Dev Mode design overview video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QaqOHtNQzZs" title="Vibble demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 - Take a look at the flow chart of the game structure:
   ![Game structure flow chart](SRC/misc_content/engine.drawio.svg)
   [flow chart](https://app.diagrams.net/#Hcabbabbage%2FVIBBLE_2D_GAME_ENGINE%2Fplayer_fix%2Fengine.drawio.xml#%7B%22pageId%22%3A%224_JYmeCipBGX9XNcjFr7%22%7D)
