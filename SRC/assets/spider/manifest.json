@@ -1,0 +1,547 @@
+{
+    "animation_children": [],
+    "animations": {
+        "default": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": false
+                }
+            ],
+            "inherit_source_movement": false,
+            "locked": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "movement_total": {
+                "dx": 0,
+                "dy": 0
+            },
+            "number_of_frames": 1,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "folder",
+                "name": "",
+                "path": "default"
+            },
+            "speed_multiplier": 1.0
+        },
+        "down_left": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "derived_modifiers": {
+                "flipMovementX": false,
+                "flipMovementY": false,
+                "flipX": false,
+                "flipY": false,
+                "reverse": false
+            },
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                }
+            ],
+            "inherit_source_movement": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "movement_total": {
+                "dx": 0,
+                "dy": 0
+            },
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "animation",
+                "name": "left",
+                "path": ""
+            },
+            "speed_multiplier": 1.0
+        },
+        "down_right": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "derived_modifiers": {
+                "flipMovementX": false,
+                "flipMovementY": false,
+                "flipX": false,
+                "flipY": false,
+                "reverse": false
+            },
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                }
+            ],
+            "inherit_source_movement": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "movement_total": {
+                "dx": 0,
+                "dy": 0
+            },
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "animation",
+                "name": "right",
+                "path": ""
+            },
+            "speed_multiplier": 1.0
+        },
+        "left": {
+            "attack_geometry": [
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                },
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                },
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                },
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                },
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                },
+                {
+                    "explosion": [],
+                    "melee": [],
+                    "projectile": []
+                }
+            ],
+            "child_timelines": [],
+            "crop_frames": false,
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": false
+                },
+                {
+                    "needs_rebuild": false
+                },
+                {
+                    "needs_rebuild": false
+                },
+                {
+                    "needs_rebuild": false
+                },
+                {
+                    "needs_rebuild": false
+                },
+                {
+                    "needs_rebuild": false
+                }
+            ],
+            "hit_geometry": [
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                },
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                },
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                },
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                },
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                },
+                {
+                    "explosion": null,
+                    "melee": null,
+                    "projectile": null
+                }
+            ],
+            "inherit_source_movement": false,
+            "locked": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0,
+                    false
+                ],
+                [
+                    0,
+                    0,
+                    false
+                ],
+                [
+                    0,
+                    0,
+                    false
+                ],
+                [
+                    0,
+                    0,
+                    false
+                ],
+                [
+                    0,
+                    0,
+                    false
+                ],
+                [
+                    -160,
+                    0,
+                    false
+                ]
+            ],
+            "movement_total": {
+                "dx": -160,
+                "dy": 0
+            },
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "folder",
+                "name": "",
+                "path": "left"
+            },
+            "speed_multiplier": 1.0
+        },
+        "right": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "derived_modifiers": {
+                "flipMovementX": true,
+                "flipMovementY": false,
+                "flipX": true,
+                "flipY": false,
+                "reverse": false
+            },
+            "flipped_source": true,
+            "frames": [
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                }
+            ],
+            "inherit_source_movement": true,
+            "loop": true,
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "animation",
+                "name": "left",
+                "path": ""
+            },
+            "speed_multiplier": 1.0
+        },
+        "up_left": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "derived_modifiers": {
+                "flipMovementX": false,
+                "flipMovementY": false,
+                "flipX": false,
+                "flipY": false,
+                "reverse": false
+            },
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                }
+            ],
+            "inherit_source_movement": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "movement_total": {
+                "dx": 0,
+                "dy": 0
+            },
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "animation",
+                "name": "left",
+                "path": ""
+            },
+            "speed_multiplier": 1.0
+        },
+        "up_right": {
+            "child_timelines": [],
+            "crop_frames": false,
+            "derived_modifiers": {
+                "flipMovementX": false,
+                "flipMovementY": false,
+                "flipX": false,
+                "flipY": false,
+                "reverse": false
+            },
+            "flipped_source": false,
+            "frames": [
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                },
+                {
+                    "needs_rebuild": true
+                }
+            ],
+            "inherit_source_movement": false,
+            "loop": true,
+            "movement": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "movement_total": {
+                "dx": 0,
+                "dy": 0
+            },
+            "number_of_frames": 6,
+            "on_end": "default",
+            "reverse_source": false,
+            "rnd_start": false,
+            "source": {
+                "kind": "animation",
+                "name": "right",
+                "path": ""
+            },
+            "speed_multiplier": 1.0
+        }
+    },
+    "anti_tags": [],
+    "asset_directory": "SRC/assets/spider",
+    "asset_name": "spider",
+    "asset_type": "object",
+    "async_children": [],
+    "can_invert": false,
+    "custom_controller_key": "spider_controller",
+    "has_shading": false,
+    "lighting_info": [],
+    "min_distance_all": 0,
+    "min_same_type_distance": 0,
+    "neighbor_search_distance": 500,
+    "render_radius": 0,
+    "shading_opacity_multiplier": 1.0,
+    "shading_parallax_amount": 0.0,
+    "shading_screen_brightness_multiplier": 1.0,
+    "shadow_mask_settings": {
+        "alpha_multiplier": 1.0,
+        "blur_scale": 1.0,
+        "expansion_ratio": 0.800000011920929,
+        "falloff_exponent": 1.0499999523162842,
+        "falloff_start": 0.0
+    },
+    "size_settings": {
+        "scale_percentage": 22.0
+    },
+    "spawn_groups": [],
+    "start": "default",
+    "tags": [],
+    "tillable": false,
+    "update_radius": 0
+}
