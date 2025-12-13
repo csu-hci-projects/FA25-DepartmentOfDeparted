@@ -397,7 +397,7 @@ void FrameEditorSession::end() {
 
     const bool target_alive = target_is_alive();
 
-    persist_changes();
+    persist_changes(true);
 
     if (assets_ != nullptr) {
         WarpedScreenGrid& cam = assets_->getView();
@@ -765,8 +765,6 @@ bool FrameEditorSession::handle_event(const SDL_Event& e) {
 };
 
     if (handle_button(btn_back_, [this]() {
-
-            this->persist_changes();
             this->end();
         })) return true;
     if (handle_button(btn_movement_, [this]() {
@@ -4066,23 +4064,28 @@ void FrameEditorSession::select_child(int index) {
     }
 }
 
-void FrameEditorSession::persist_changes() {
+void FrameEditorSession::persist_changes(bool rebuild_animation) {
     if (!document_ || animation_id_.empty()) {
         return;
     }
     ensure_child_frames_initialized();
 
+    // Keep the runtime Animation object in sync with the edited JSON so that
+    // any fallbacks that read from the live asset (e.g., on restart) see the
+    // latest frames, without forcing a full preview rebuild unless requested.
     apply_frames_to_animation();
-    if (target_is_alive() && target_->info) {
-        target_->info->set_animation_children(child_assets_);
-        for (auto& entry : target_->info->animations) {
-            entry.second.child_assets() = child_assets_;
+    if (rebuild_animation) {
+        if (target_is_alive() && target_->info) {
+            target_->info->set_animation_children(child_assets_);
+            for (auto& entry : target_->info->animations) {
+                entry.second.child_assets() = child_assets_;
+            }
+            target_->initialize_animation_children_recursive();
+            target_->mark_composite_dirty();
         }
-        target_->initialize_animation_children_recursive();
-        target_->mark_composite_dirty();
-    }
-    if (assets_) {
-        assets_->mark_active_assets_dirty();
+        if (assets_) {
+            assets_->mark_active_assets_dirty();
+        }
     }
 
     nlohmann::json payload = nlohmann::json::object();
