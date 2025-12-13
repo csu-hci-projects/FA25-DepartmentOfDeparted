@@ -430,6 +430,9 @@ void FrameEditorSession::end() {
     const bool target_alive = target_is_alive();
 
     persist_changes(true);
+    if (target_alive && target_ && target_->info) {
+        target_->info->reload_animations_from_disk();
+    }
 
     if (assets_ != nullptr) {
         WarpedScreenGrid& cam = assets_->getView();
