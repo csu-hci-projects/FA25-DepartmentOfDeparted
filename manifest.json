@@ -7783,28 +7783,6 @@
               "required_children": []
             }
           ]
-        },
-        {
-          "bounding_extent": 7071.067811865475,
-          "level": 2,
-          "max_rooms": 11,
-          "min_rooms": 5,
-          "name": "layer_2",
-          "ring_radius": 26932.66,
-          "rooms": [
-            {
-              "max_instances": 4,
-              "min_instances": 4,
-              "name": "bar",
-              "required_children": []
-            },
-            {
-              "max_instances": 7,
-              "min_instances": 1,
-              "name": "rnd",
-              "required_children": []
-            }
-          ]
         }
       ],
       "map_layers_settings": {
